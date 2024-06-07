@@ -116,7 +116,6 @@ def C_Pas_NExp_Hab(base,persona,numero):
   return r_pas_nexp_hab
 
 
-
 ## Con pronombres y aspecto
 
 P = {'Primera':{'Singular':'ñuqa','Plural':'ñuqayku'},'Segunda':{'Singular':'qam','Plural':'qamkuna'},'Tercera':{'Singular':'pay','Plural':'paykuna'},'Cuarta':{'Singular':'ñuqanchik'}}
@@ -170,7 +169,7 @@ if base[-1] == 'y':
   base = base[:len(base) - 1]
 
 ## Eliminar el error de cuarta persona plural
-if persona == 'Cuarta' and numero == '¨Plural':
+if persona == 'Cuarta' and numero == 'Plural':
   resultado = 'No existe cuarta persona plural'
 ## Establecer el resultado según tiempo y aspecto
 else:
@@ -203,14 +202,12 @@ else:
     v_conj = C_Pas_NExp_Hab(base,persona,numero)
   resultado = P[persona][numero] + ' ' + v_conj
 
-st.write("El verbo en español es", resultado)
+st.write("El verbo en español es",resultado)
 
 
 ##############################################################################
 ##############################################################################
 
 
-###############################################################################
-###############################################################################
 
 
