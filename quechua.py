@@ -15,7 +15,7 @@ espanol = list(verbos['espanol'])
 dict_que_esp = dict(zip(quechua,espanol))
 
 
-datos = pd.read_excel('Presente.xlsx')
+datos = pd.read_excel('Presente1.xlsx')
 
 ## Renombrar primera columna
 datos = datos.rename(columns={'Unnamed: 0':'Persona'})
