@@ -165,8 +165,6 @@ if t == 'Pasado':
         'Selecciona el aspecto', 
         ['Simple','Progresivo','Habitual'])
 
-
-
 ## Quitar el sufijo -y de infinitivo
 if base[-1] == 'y':
   base = base[:len(base) - 1]
@@ -205,7 +203,8 @@ else:
     v_conj = C_Pas_NExp_Hab(base,persona,numero)
   resultado = P[persona][numero] + ' ' + v_conj
 
-print(resultado)
+st.write("El verbo en español es", resultado)
+
 
 ##############################################################################
 ##############################################################################
