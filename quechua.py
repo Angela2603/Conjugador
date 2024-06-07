@@ -202,7 +202,7 @@ else:
     v_conj = C_Pas_NExp_Hab(base,persona,numero)
   resultado = P[persona][numero] + ' ' + v_conj
 
-st.write("El verbo en español es",resultado)
+st.write("Resultado:",resultado)
 
 
 ##############################################################################
