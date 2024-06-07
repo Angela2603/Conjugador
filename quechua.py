@@ -1,6 +1,3 @@
-###############################################################################
-###############################################################################
-
 ## importamos streamlit
 import streamlit as st
 
@@ -18,7 +15,7 @@ espanol = list(verbos['espanol'])
 dict_que_esp = dict(zip(quechua,espanol))
 
 
-datos = pd.read_excel('presente.xlsx')
+datos = pd.read_excel('Presente.xlsx')
 
 ## Renombrar primera columna
 datos = datos.rename(columns={'Unnamed: 0':'Persona'})
