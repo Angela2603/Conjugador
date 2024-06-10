@@ -122,7 +122,11 @@ st.title("Conjugador de quechua chanka")
 
 ## presentacion
 
-st.header('Bienvenidos', divider='gray')
+st.header('Bienvenido', divider='gray')
+
+## texto de presentacion
+
+st.caption('Te presentamos el conjugador de quechua de la variedad _chanca_.Esta variedad es conocida también como _ayacuchana_ y es hablada en los departamentos de Huancavelica, Ayacucho y el la parte oeste de Apurímac.')
 
 ## Con pronombres y aspecto
 
