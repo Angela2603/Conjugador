@@ -27,7 +27,7 @@ for i in datos.index:
   f = list(datos.loc[i])
   d = dict(zip(['Singular','Plural'],f[1:]))
   D[f[0]] = d
-D
+
 
 ## Conj presente simple
 def CPS(base,persona,numero):
