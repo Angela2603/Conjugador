@@ -1,3 +1,4 @@
+
 ## importamos streamlit
 import streamlit as st
 
@@ -115,6 +116,9 @@ def C_Pas_NExp_Hab(base,persona,numero):
 
   return r_pas_nexp_hab
 
+## Titulo
+
+st.title("Conjugador de quechua chanka")
 
 ## Con pronombres y aspecto
 
