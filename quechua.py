@@ -120,6 +120,10 @@ def C_Pas_NExp_Hab(base,persona,numero):
 
 st.title("Conjugador de quechua chanka")
 
+## presentacion
+
+st.header('Bienvenidos', divider='gray')
+
 ## Con pronombres y aspecto
 
 P = {'Primera':{'Singular':'ñuqa','Plural':'ñuqayku'},'Segunda':{'Singular':'qam','Plural':'qamkuna'},'Tercera':{'Singular':'pay','Plural':'paykuna'},'Cuarta':{'Singular':'ñuqanchik'}}
