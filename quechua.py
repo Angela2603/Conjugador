@@ -121,7 +121,7 @@ def C_Pas_NExp_Hab(base,persona,numero):
 page_bg_css = """
 <style>
 body {
-    background-color: #ADD8E6
+    background-color: #ADD8E6;
 }
 </style>
 """
@@ -137,7 +137,7 @@ st.header('¡Bienvenido!', divider='gray')
 
 ## texto de presentacion
 
-st.caption('¿¿Te presentamos el conjugador de quechua de la variedad **_chanca_**. Esta variedad es conocida también como variedad **_ayacuchana_** y forma parte de la **subrama sureña** o **subrama Quechua II**. Es hablada en Huancavelica, Ayacucho y en la parte oeste de Apurímac.')
+st.caption('Te presentamos el conjugador de quechua de la variedad **_chanca_**. Esta variedad es conocida también como variedad **_ayacuchana_** y forma parte de la **subrama sureña** o **subrama Quechua II**. Es hablada en Huancavelica, Ayacucho y en la parte oeste de Apurímac.')
 
 ## Con pronombres y aspecto
 
