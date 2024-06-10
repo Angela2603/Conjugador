@@ -1,6 +1,4 @@
-[client]
-showErrorDetails = false
-
-[theme]
-primaryColor = "#F63366"
-backgroundColor = "black"
+theme.primaryColor="#1c161b"
+theme.backgroundColor="#e9e3e8" \
+theme.secondaryBackgroundColor="#b5d2af" \
+theme.textColor="#481b10"
