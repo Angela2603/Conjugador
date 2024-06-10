@@ -116,6 +116,17 @@ def C_Pas_NExp_Hab(base,persona,numero):
 
   return r_pas_nexp_hab
 
+##### configuracion del tema de la pagina
+
+page_bg_css = """
+<style>
+body {
+    background-color: #ADD8E6
+}
+</style>
+"""
+st.markdown(page_bg_css, unsafe_allow_html=True)
+
 ## Titulo
 
 st.title("Conjugador de quechua chanka")
