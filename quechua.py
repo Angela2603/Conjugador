@@ -117,20 +117,6 @@ def C_Pas_NExp_Hab(base,persona,numero):
   return r_pas_nexp_hab
 
 ########## configuracion del tema de la pagina
-# Función para cargar el CSS
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
-
-# Configuración de la página
-st.set_page_config(
-    page_title='Mi Página de Streamlit',
-    page_icon='🚀',
-    layout='wide'
-)
-
-# Cargar el CSS
-local_css("styles.css")
 
 
 ######
