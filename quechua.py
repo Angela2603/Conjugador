@@ -116,16 +116,48 @@ def C_Pas_NExp_Hab(base,persona,numero):
 
   return r_pas_nexp_hab
 
-##### configuracion del tema de la pagina
+########## configuracion del tema de la pagina
+# Función para cargar el CSS
+def local_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-page_bg_css = """
-<style>
-body {
-    background-color: #F5F5DC;
-}
-</style>
-"""
-st.markdown(page_bg_css, unsafe_allow_html=True)
+# Configuración de la página
+st.set_page_config(
+    page_title='Mi Página de Streamlit',
+    page_icon='🚀',
+    layout='wide'
+)
+
+# Cargar el CSS
+local_css("styles.css")
+
+# Ejemplo de contenido de la aplicación
+st.title('Título Principal')
+st.header('Encabezado')
+st.subheader('Subencabezado')
+st.write('Este es un texto de ejemplo.')
+
+if st.button('Haga clic aquí'):
+    st.write('¡Botón clickeado!')
+
+age = st.slider('Selecciona tu edad', 0, 100, 25)
+st.write(f'Tu edad es: {age}')
+
+option = st.selectbox('Elige una opción', ['Opción 1', 'Opción 2', 'Opción 3'])
+st.write(f'Has seleccionado: {option}')
+
+col1, col2 = st.columns(2)
+
+with col1:
+    st.header("Columna 1")
+    st.write("Contenido de la columna 1")
+
+with col2:
+    st.header("Columna 2")
+    st.write("Contenido de la columna 2")
+
+######
 
 ## Titulo
 

@@ -1,0 +1,24 @@
+/* Cambia el color de fondo de toda la página */
+body {
+    background-color: #f0f2f6;
+}
+
+/* Cambia el color y tamaño de los títulos */
+h1 {
+    color: #F63366;
+    font-size: 3em;
+}
+
+/* Estilo personalizado para botones */
+button {
+    background-color: #4CAF50; /* Verde */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
