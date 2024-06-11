@@ -1,12 +1,11 @@
-/* Cambia el color de fondo de toda la página a beige */
 body {
     background-color: #F5F5DC;
 }
 
 /* Cambia el color y tamaño de los títulos */
-h1 {
+h1, h2, h3, h4, h5, h6 {
     color: #8B4513; /* Un marrón oscuro que combina bien con el beige */
-    font-size: 3em;
+    font-family: 'sans serif';
 }
 
 /* Estilo personalizado para botones */
@@ -21,4 +20,3 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-}
