@@ -121,7 +121,7 @@ def C_Pas_NExp_Hab(base,persona,numero):
 page_bg_css = """
 <style>
 body {
-    background-color: #ADD8E6;
+    background-color: #F5F5DC;
 }
 </style>
 """
