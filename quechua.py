@@ -225,18 +225,6 @@ else:
     v_conj = C_Pas_NExp_Hab(base,persona,numero)
   resultado = P[persona][numero] + ' ' + v_conj
 
-st.set_page_config(layout="wide")
-
-st.markdown("""
-<style>
-.big-font {
-    font-size:300px !important;
-}
-</style>
-""", unsafe_allow_html=True)
-
-st.markdown('<p class="big-font">Hello World !!</p>', unsafe_allow_html=True)
-
 st.write("**Resultado:**",resultado)
 
 
