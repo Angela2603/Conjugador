@@ -1,20 +1,20 @@
-/* Cambia el color de fondo de toda la página */
+/* Cambia el color de fondo de toda la página a beige */
 body {
-    background-color: #D2B48C;
+    background-color: #F5F5DC;
 }
 
 /* Cambia el color y tamaño de los títulos */
 h1 {
-    color: ##D2B48C;
+    color: #8B4513; /* Un marrón oscuro que combina bien con el beige */
     font-size: 3em;
 }
 
 /* Estilo personalizado para botones */
 button {
-    background-color: #4CAF50; /* Verde */
-    border: none;
-    color: white;
-    padding: 15px 32px;
+    background-color: #F5F5DC; /* Beige */
+    border: 2px solid #8B4513; /* Borde marrón */
+    color: #8B4513; /* Texto marrón */
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
