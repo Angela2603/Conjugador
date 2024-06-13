@@ -3,6 +3,21 @@ body {
     background-color: #F5F5DC;
 }
 
+<style>
+.custom-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: #654321;
+    text-align: center;
+}
+.custom-subtitle {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #8B4513;
+    margin-top: 10px;
+}
+</style>
+
 /* Cambia el color y tamaño de los títulos */
 h1 {
     color: #654321; /* Un marrón oscuro que combina bien con el beige */
