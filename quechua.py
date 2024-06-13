@@ -127,33 +127,7 @@ def local_css(file_name):
 # Cargar el CSS
 local_css("styles.css")
 
-### prueba 1 ####
-css = """
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-<style>
-body {
-    background-color: #D2B48C;
-    font-family: 'Roboto', sans-serif; 
-}
 
-/* Cambia el color y tamaño de los títulos */
-h1 {
-    color: #654321; 
-    font-size: 4em;
-    font-family: 'Roboto', sans-serif; 
-}
-
-h2 {
-    color: #8E593C;
-    font-size: 2em;
-    font-family: 'Roboto', sans-serif; 
-}
-
-</style>
-"""
-
-# Insertar el CSS en la aplicación
-st.markdown(css, unsafe_allow_html=True)
 
 
 ######
