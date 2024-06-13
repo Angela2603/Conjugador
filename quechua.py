@@ -129,8 +129,7 @@ local_css("styles.css")
 
 #### logo
 def load_logo(logo_path):
-    logo_style = f
-    """
+    logo_style = f"""
         <style>
             .logo-img {{
                 max-width: 150px; /* Ajusta el tamaño máximo del logo */
