@@ -133,27 +133,27 @@ css = """
 <style>
 body {
     background-color: #F5F5DC;
-    font-family: 'Roboto', sans-serif; /* Añadir la fuente 'Roboto' */
+    font-family: 'Roboto', sans-serif; 
 }
 
 /* Cambia el color y tamaño de los títulos */
 h1 {
-    color: #654321; /* Un marrón oscuro que combina bien con el beige */
+    color: #654321; 
     font-size: 4em;
-    font-family: 'Roboto', sans-serif; /* Añadir la fuente 'Roboto' */
+    font-family: 'Roboto', sans-serif; 
 }
 
 h2 {
-    color: #8E593C; /* Un marrón oscuro que combina bien con el beige */
+    color: #8E593C;
     font-size: 2em;
-    font-family: 'Roboto', sans-serif; /* Añadir la fuente 'Roboto' */
+    font-family: 'Roboto', sans-serif; 
 }
 
-/* Estilo personalizado para botones */
+
 button {
-    background-color: #F5F5DC; /* Beige */
-    border: 2px solid #8B4513; /* Borde marrón */
-    color: #8B4513; /* Texto marrón */
+    background-color: #F5F5DC; 
+    border: 2px solid #8B4513; 
+    color: #8B4513;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -161,7 +161,7 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    font-family: 'Roboto', sans-serif; /* Añadir la fuente 'Roboto' */
+    font-family: 'Roboto', sans-serif; 
 }
 </style>
 """
