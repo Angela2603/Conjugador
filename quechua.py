@@ -124,6 +124,8 @@ def local_css(file_name):
 
 
 
+# Cargar el CSS
+local_css("styles.css")
 
 ### prueba 1 ####
 css = """
