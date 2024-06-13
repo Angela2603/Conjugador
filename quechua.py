@@ -129,7 +129,8 @@ local_css("styles.css")
 
 #### logo
 def load_logo(logo_path):
-    logo_style = f"""
+    logo_style = f
+    """
         <style>
             .logo-img {{
                 max-width: 150px; /* Ajusta el tamaño máximo del logo */
@@ -141,7 +142,7 @@ def load_logo(logo_path):
     st.markdown(f'<img class="logo-img" src="data:image/png;base64,{logo_path}">', unsafe_allow_html=True)
 
 # Llamada a la función para mostrar el logo
-logo_path = 'assets/1.png'  # Ruta a tu logo
+logo_path = 'Users\anicr\Documents\2024-1\Ling. computacional\Trabajo\Conjugador\assets\1.png'  # Ruta a tu logo
 load_logo(logo_path)
 
 
