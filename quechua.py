@@ -156,10 +156,6 @@ h2 {
 st.markdown(css, unsafe_allow_html=True)
 
 
-
-
-# Contenido adicional de la aplicación
-st.write('Este es un ejemplo de cómo se vería un título con una tipografía personalizada en una página web usando Streamlit.')
 ######
 
 ## Titulo
