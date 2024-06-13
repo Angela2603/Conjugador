@@ -149,33 +149,14 @@ h2 {
     font-family: 'Roboto', sans-serif; 
 }
 
-
-button {
-    background-color: #F5F5DC; 
-    border: 2px solid #8B4513; 
-    color: #8B4513;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif; 
-}
 </style>
 """
 
 # Insertar el CSS en la aplicación
 st.markdown(css, unsafe_allow_html=True)
 
-# Usar la clase CSS en los títulos y botones
-st.markdown('<h1>Título Personalizado en Quechua</h1>', unsafe_allow_html=True)
-st.markdown('<h2>Subtítulo Personalizado</h2>', unsafe_allow_html=True)
 
-# Ejemplo de botón
-if st.button('Haz clic aquí'):
-    st.write('¡Botón presionado!')
+
 
 # Contenido adicional de la aplicación
 st.write('Este es un ejemplo de cómo se vería un título con una tipografía personalizada en una página web usando Streamlit.')
