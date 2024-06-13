@@ -141,7 +141,7 @@ def load_logo(logo_path):
     st.markdown(f'<img class="logo-img" src="data:image/png;base64,{logo_path}">', unsafe_allow_html=True)
 
 # Llamada a la función para mostrar el logo
-logo_path = 'assets/Logo.png'  # Ruta a tu logo
+logo_path = 'assets/1.png'  # Ruta a tu logo
 load_logo(logo_path)
 
 
