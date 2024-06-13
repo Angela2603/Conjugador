@@ -132,7 +132,7 @@ css = """
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 <style>
 body {
-    background-color: #F5F5DC;
+    background-color: #D2B48C;
     font-family: 'Roboto', sans-serif; 
 }
 
