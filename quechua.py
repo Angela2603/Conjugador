@@ -132,7 +132,7 @@ local_css("styles.css")
 
 ## Titulo
 
-st.title("Conjugador de quechua chanka")
+st.title("CONJUGADOR DE QUECHUA CHANKA")
 
 ## presentacion
 
