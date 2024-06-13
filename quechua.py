@@ -124,10 +124,26 @@ def local_css(file_name):
 
 
 
-# Cargar el CSS
+#### Cargar el CSS
 local_css("styles.css")
 
+#### logo
+def load_logo(logo_path):
+    logo_style = f"""
+        <style>
+            .logo-img {{
+                max-width: 150px; /* Ajusta el tamaño máximo del logo */
+                margin-bottom: 10px; /* Espacio hacia abajo */
+            }}
+        </style>
+    """
+    st.markdown(logo_style, unsafe_allow_html=True)
+    st.markdown(f'<img class="logo-img" src="data:image/png;base64,{logo_path}">', unsafe_allow_html=True)
 
+# Llamada a la función para mostrar el logo
+st.title('Mi Aplicación con Logo Personalizado')
+logo_path = 'assets/logo.png'  # Ruta a tu logo
+load_logo(logo_path)
 
 
 ######
