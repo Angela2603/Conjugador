@@ -1,17 +1,25 @@
-/* Cambia el color de fondo de toda la página a beige */
+/* Incluir Google Fonts en el HTML */
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
 body {
     background-color: #F5F5DC;
+    font-family: 'Roboto', sans-serif; /* Añadir la fuente 'Roboto' */
 }
 
 /* Cambia el color y tamaño de los títulos */
 h1 {
     color: #654321; /* Un marrón oscuro que combina bien con el beige */
     font-size: 4em;
+    font-family: 'Roboto', sans-serif; /* Añadir la fuente 'Roboto' */
 }
+
 h2 {
     color: #8E593C; /* Un marrón oscuro que combina bien con el beige */
     font-size: 2em;
+    font-family: 'Roboto', sans-serif; /* Añadir la fuente 'Roboto' */
 }
+
 /* Estilo personalizado para botones */
 button {
     background-color: #F5F5DC; /* Beige */
@@ -24,4 +32,6 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    font-family: 'Roboto', sans-serif; /* Añadir la fuente 'Roboto' */
 }
+</style>

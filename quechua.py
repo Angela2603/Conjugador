@@ -127,7 +127,58 @@ def local_css(file_name):
 # Cargar el CSS
 local_css("styles.css")
 
+### prueba 1 ####
+css = """
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+body {
+    background-color: #F5F5DC;
+    font-family: 'Roboto', sans-serif; /* Añadir la fuente 'Roboto' */
+}
 
+/* Cambia el color y tamaño de los títulos */
+h1 {
+    color: #654321; /* Un marrón oscuro que combina bien con el beige */
+    font-size: 4em;
+    font-family: 'Roboto', sans-serif; /* Añadir la fuente 'Roboto' */
+}
+
+h2 {
+    color: #8E593C; /* Un marrón oscuro que combina bien con el beige */
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif; /* Añadir la fuente 'Roboto' */
+}
+
+/* Estilo personalizado para botones */
+button {
+    background-color: #F5F5DC; /* Beige */
+    border: 2px solid #8B4513; /* Borde marrón */
+    color: #8B4513; /* Texto marrón */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif; /* Añadir la fuente 'Roboto' */
+}
+</style>
+"""
+
+# Insertar el CSS en la aplicación
+st.markdown(css, unsafe_allow_html=True)
+
+# Usar la clase CSS en los títulos y botones
+st.markdown('<h1>Título Personalizado en Quechua</h1>', unsafe_allow_html=True)
+st.markdown('<h2>Subtítulo Personalizado</h2>', unsafe_allow_html=True)
+
+# Ejemplo de botón
+if st.button('Haz clic aquí'):
+    st.write('¡Botón presionado!')
+
+# Contenido adicional de la aplicación
+st.write('Este es un ejemplo de cómo se vería un título con una tipografía personalizada en una página web usando Streamlit.')
 ######
 
 ## Titulo
