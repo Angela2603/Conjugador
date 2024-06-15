@@ -1,4 +1,15 @@
 <style>
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 150px; /* Ajusta el tamaño según sea necesario */
+}
+
 body {
     background-color: #F5F5DC;
     font-family: 'Crimson Pro', serif; /* Añadir la fuente 'Crimson Pro' */

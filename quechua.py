@@ -128,22 +128,22 @@ def local_css(file_name):
 local_css("styles.css")
 
 #### logo
-def load_logo(logo_path):
-    logo_style = f"""
-        <style>
-            .logo-img {{
-                max-width: 150px; /* Ajusta el tamaño máximo del logo */
-                margin-bottom: 10px; /* Espacio hacia abajo */
-            }}
-        </style>
-    """
-    st.markdown(logo_style, unsafe_allow_html=True)
-    st.markdown(f'<img class="logo-img" src="data:image/png;base64,{logo_path}">', unsafe_allow_html=True)
 
-# Llamada a la función para mostrar el logo
-logo_path = 'assets/1.png'  # Ruta a tu logo
-load_logo(logo_path)
+# Cargar el archivo CSS
+def load_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
+# Llamar a la función para cargar el CSS
+load_css("style.css")
+
+# Agregar el logo
+logo_html = """
+<div class="logo">
+    <img src="https://drive.google.com/file/d/1GCYmtKYKKA70-KGJLodpWbebQ_H-MI1t/view?usp=sharing" alt="Logo">
+</div>
+"""
+st.markdown(logo_html, unsafe_allow_html=True)
 
 ######
 
