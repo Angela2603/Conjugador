@@ -29,11 +29,9 @@ h2 {
 }
 
 .caption-custom {
-    color: #191919; /* Cambia esto al color que desees */
+    color: #6F4E37; /* Cambia esto al color que desees */
     font-size: 16px; /* Cambia el tamaño de la fuente si es necesario */
-    font-family: 'Crimson Pro', serif
-    font-weight: bold;
-    font-style: italic;
+    font-family: 'Crimson Pro', serif;
     }
 
 </style>
