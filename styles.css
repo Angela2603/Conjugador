@@ -30,8 +30,9 @@ h2 {
 
 .caption-custom {
     color: #6F4E37; /* Cambia esto al color que desees */
-    font-size: 20px; /* Cambia el tamaño de la fuente si es necesario */
+    font-size: 18px; /* Cambia el tamaño de la fuente si es necesario */
     font-family: 'Crimson Pro', serif;
+    text-align: justify; 
     }
 
 </style>
