@@ -35,8 +35,8 @@ h2 {
     }
 
 .stDivider div {
-    background-color: blue; 
-    height: 15px; /* Ajusta la altura del divider si es necesario */
+    background-color: #cbb393; 
+    height: 3px; /* Ajusta la altura del divider si es necesario */
 }
 
 </style>
