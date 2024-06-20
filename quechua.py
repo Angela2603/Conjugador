@@ -142,7 +142,8 @@ logo_html = """
 """
 st.markdown(logo_html, unsafe_allow_html=True)
 
-######
+###### intento logo 2
+st.image('1.jpg')
 
 ## Titulo
 
