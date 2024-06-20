@@ -28,6 +28,16 @@ h2 {
     font-family: 'Crimson Pro', serif; /* Añadir la fuente 'Crimson Pro' */
 }
 
+caption_html = """
+    <style>
+    .caption {
+        font-family: 'Crimson Pro', serif;
+        font-size: 16px;
+        color: #555555;
+    }
+    </style>
+"""
+
 /* Estilo personalizado para botones */
 button {
     background-color: #F5F5DC; /* Beige */
