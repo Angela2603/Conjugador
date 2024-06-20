@@ -136,7 +136,7 @@ with col2:
 
 # Colocar la imagen en la segunda columna
 with col1:
-    st.image('assets/1.png', width=150)
+    st.image('assets/1.png', width=250)
 
 ###### intento logo 2
 st.image('assets/1.png', width=300)
