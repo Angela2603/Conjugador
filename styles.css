@@ -23,9 +23,8 @@ h1 {
 }
 
 h2 {
-    color: #D2B48C; /* Un marrón oscuro que combina bien con el beige */
-    font-size: 2em;
-    font-family: 'Crimson Pro', serif; /* Añadir la fuente 'Crimson Pro' */
+    color: #D2B48C;     font-size: 2em;
+    font-family: 'Crimson Pro', serif; 
 }
 
 .caption-custom {
@@ -34,5 +33,10 @@ h2 {
     font-family: 'Crimson Pro', serif;
     text-align: justify; 
     }
+
+.stDivider div {
+    background-color: #cbb393; 
+    height: 2px; /* Ajusta la altura del divider si es necesario */
+}
 
 </style>
