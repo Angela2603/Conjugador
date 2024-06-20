@@ -133,7 +133,7 @@ col1, col2 = st.columns([1, 2])  # Ajusta los valores para cambiar la proporció
 # Colocar el título en la primera columna
 ## título de la página
 with col2:
-    st.title('CONJUGADOR DE QUECHUA CHANKA')
+    st.title('CONJUGADOR DE QUECHUA CHANCA')
 ## logo de la página
 # Colocar la imagen en la segunda columna
 with col1:
