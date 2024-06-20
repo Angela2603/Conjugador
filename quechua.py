@@ -129,21 +129,8 @@ local_css("styles.css")
 
 #### logo
 
-# Cargar el archivo CSS
-def load_css(file_name):
-    with open(file_name) as f:
-        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
-
-# Agregar el logo
-logo_html = """
-<div class="logo">
-    <img src="https://drive.google.com/file/d/1GCYmtKYKKA70-KGJLodpWbebQ_H-MI1t/view?usp=sharing" alt="Logo">
-</div>
-"""
-st.markdown(logo_html, unsafe_allow_html=True)
-
 ###### intento logo 2
-st.image('assets/1.png', caption='Esta es mi imagen', use_column_width=True)
+st.image('assets/1.png', width=300)
 ## Titulo
 
 st.title("CONJUGADOR DE QUECHUA CHANKA")
