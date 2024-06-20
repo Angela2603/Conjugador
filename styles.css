@@ -38,18 +38,4 @@ caption_html = """
     </style>
 """
 
-/* Estilo personalizado para botones */
-button {
-    background-color: #F5F5DC; /* Beige */
-    border: 2px solid #8B4513; /* Borde marrón */
-    color: #8B4513; /* Texto marrón */
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif; /* Añadir la fuente 'Roboto' */
-}
 </style>
