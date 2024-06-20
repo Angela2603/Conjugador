@@ -122,12 +122,21 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-
-
 #### Cargar el CSS
 local_css("styles.css")
 
-#### logo
+
+#### logo y columna
+
+col1, col2 = st.columns([1, 2])  # Ajusta los valores para cambiar la proporción entre columnas
+
+# Colocar el título en la primera columna
+with col1:
+    st.title('CONJUGADOR DE QUECHUA CHANKA')
+
+# Colocar la imagen en la segunda columna
+with col2:
+    st.image('assets/1.png', width=150)
 
 ###### intento logo 2
 st.image('assets/1.png', width=300)
