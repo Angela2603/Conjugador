@@ -132,7 +132,7 @@ local_css("styles.css")
 
 # Divider
 st.write("---")
-
+st.divider()
 #### logo y columna
 
 col1, col2 = st.columns([1, 2])  # Ajusta los valores para cambiar la proporción entre columnas
