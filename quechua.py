@@ -15,7 +15,7 @@ espanol = list(verbos['espanol'])
 
 dict_que_esp = dict(zip(quechua,espanol))
 
-
+## insertar cuadro con conjugaciones de presente
 datos = pd.read_excel('Presente1.xlsx')
 
 ## Renombrar primera columna
@@ -29,6 +29,7 @@ for i in datos.index:
   d = dict(zip(['Singular','Plural'],f[1:]))
   D[f[0]] = d
 
+##### FUNCIONES ######
 
 ## Conj presente simple
 def CPS(base,persona,numero):
@@ -116,7 +117,11 @@ def C_Pas_NExp_Hab(base,persona,numero):
 
   return r_pas_nexp_hab
 
+##### FIN DE FUNCIONES #####
+
+
 ########## configuracion del tema de la pagina
+
 # Función para cargar el CSS
 def local_css(file_name):
     with open(file_name) as f:
@@ -125,6 +130,8 @@ def local_css(file_name):
 #### Cargar el CSS
 local_css("styles.css")
 
+# Divider
+st.write("---")
 
 #### logo y columna
 
