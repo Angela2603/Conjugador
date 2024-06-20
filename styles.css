@@ -28,11 +28,11 @@ h2 {
     font-family: 'Crimson Pro', serif; /* Añadir la fuente 'Crimson Pro' */
 }
 
-caption_html =
-    .caption {
-        font-family: 'Crimson Pro', serif;
-        font-size: 16px;
-        color: #FFFFFF;
+.caption-custom {
+    color: #191919; /* Cambia esto al color que desees */
+    font-size: 16px; /* Cambia el tamaño de la fuente si es necesario */
+    font-family: 'Crimson Pro', serif
+    font-weight: bold;
     }
 
 </style>

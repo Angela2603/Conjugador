@@ -146,6 +146,7 @@ with col1:
 st.header('¡Bienvenido!', divider='gray')
 
 ## texto de presentacion
+st.markdown('<p class="caption-custom">Te presentamos el conjugador de quechua de la variedad **_chanca_**. Esta variedad es conocida también como variedad **_ayacuchana_** y forma parte de la **subrama sureña** o **subrama Quechua II**. Es hablada en Huancavelica, Ayacucho y en la parte oeste de Apurímac.</p>', unsafe_allow_html=True)
 
 st.caption('Te presentamos el conjugador de quechua de la variedad **_chanca_**. Esta variedad es conocida también como variedad **_ayacuchana_** y forma parte de la **subrama sureña** o **subrama Quechua II**. Es hablada en Huancavelica, Ayacucho y en la parte oeste de Apurímac.')
 
