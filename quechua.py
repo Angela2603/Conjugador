@@ -131,11 +131,11 @@ local_css("styles.css")
 col1, col2 = st.columns([1, 2])  # Ajusta los valores para cambiar la proporción entre columnas
 
 # Colocar el título en la primera columna
-with col1:
+with col2:
     st.title('CONJUGADOR DE QUECHUA CHANKA')
 
 # Colocar la imagen en la segunda columna
-with col2:
+with col1:
     st.image('assets/1.png', width=150)
 
 ###### intento logo 2
