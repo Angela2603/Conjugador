@@ -131,7 +131,7 @@ def local_css(file_name):
 local_css("styles.css")
 
 # Divider
-st.markdown("<div class='stDivider'></div>", unsafe_allow_html=True)
+st.write("<div class='stDivider'></div>", unsafe_allow_html=True)
 
 #### logo y columna
 
