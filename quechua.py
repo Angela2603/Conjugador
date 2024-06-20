@@ -143,8 +143,7 @@ logo_html = """
 st.markdown(logo_html, unsafe_allow_html=True)
 
 ###### intento logo 2
-st.image('1.jpg')
-
+st.image('assets/1.png', caption='Esta es mi imagen', use_column_width=True)
 ## Titulo
 
 st.title("CONJUGADOR DE QUECHUA CHANKA")
