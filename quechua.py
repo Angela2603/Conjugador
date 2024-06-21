@@ -130,6 +130,9 @@ def local_css(file_name):
 #### Cargar el CSS
 local_css("styles.css")
 
+## divider de prueba 1000
+st.markdown('<div class="custom-divider"></div>', unsafe_allow_html=True)
+
 # Divider
 st.write("---")
 st.divider()
