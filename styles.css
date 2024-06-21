@@ -37,7 +37,7 @@ h2 {
 
 .custom-divider {
     border-top: 2px solid #D2B48C;  /* Cambia el color y el grosor del divisor */
-    margin-top: 3px;  /* Ajusta el margen superior */
+    margin-top: 1px;  /* Ajusta el margen superior */
     margin-bottom: 20px;  /* Ajusta el margen inferior */
 }
 
