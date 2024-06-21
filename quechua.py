@@ -148,7 +148,7 @@ with col1:
 
 ## presentacion
 
-st.header('¡Bienvenido!',st.markdown('<div class="custom-divider"></div>', unsafe_allow_html=True))
+st.header('¡Bienvenido!','<div class="custom-divider"></div>', unsafe_allow_html=True)
 
 
 ## ## divider de color c:
