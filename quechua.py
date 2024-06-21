@@ -149,10 +149,11 @@ with col1:
 ## presentacion
 
 st.header('¡Bienvenido!')
+st.markdown('<div class="custom-divider"></div>', unsafe_allow_html=True)
 
 ## ## divider de color c:
     
-st.markdown('<div class="custom-divider"></div>', unsafe_allow_html=True)
+
 
 ## texto de presentacion
 st.markdown('<p class="caption-custom">Te presentamos el conjugador de quechua de la variedad <b>chanca</b>. Esta variedad es conocida también como variedad <b>ayacuchana</b> y forma parte de la <b>subrama sureña</b> o <b>subrama Quechua II</b>. Es hablada en Huancavelica, Ayacucho y en la parte oeste de Apurímac.</p>', unsafe_allow_html=True)
