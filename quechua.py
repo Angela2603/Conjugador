@@ -151,7 +151,7 @@ with col1:
 st.header('¡Bienvenido!')
 
 
-## ## divider de color c:
+
     
 st.markdown('<div class="custom-divider"></div>', unsafe_allow_html=True)
 
